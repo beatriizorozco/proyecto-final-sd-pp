@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroHipico.API", "CentroHipico.API\CentroHipico.API.csproj", "{BD02D978-46CC-4FBD-8169-99E7A89E54FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD02D978-46CC-4FBD-8169-99E7A89E54FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD02D978-46CC-4FBD-8169-99E7A89E54FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD02D978-46CC-4FBD-8169-99E7A89E54FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD02D978-46CC-4FBD-8169-99E7A89E54FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27875E31-662C-4C13-8EC7-421CB5822D47}
+	EndGlobalSection
+EndGlobal
