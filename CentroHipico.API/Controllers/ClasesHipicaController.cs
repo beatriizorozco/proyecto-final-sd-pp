@@ -21,7 +21,6 @@ namespace CentroHipico.API.Controllers
             _context = context;
         }
 
-        // GET
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ClaseHipica>>> GetClasesHipica()
         {
@@ -35,7 +34,6 @@ namespace CentroHipico.API.Controllers
                 .ToListAsync();
         }
 
-        // GET
         [HttpGet("{id}")]
         public async Task<ActionResult<ClaseHipica>> GetClaseHipica(int id)
         {
@@ -53,7 +51,6 @@ namespace CentroHipico.API.Controllers
             return claseHipica;
         }
 
-        // PUT
         [HttpPut("{id}")]
         public async Task<IActionResult> PutClaseHipica(int id, ClaseHipica claseHipica)
         {
@@ -83,7 +80,6 @@ namespace CentroHipico.API.Controllers
             return NoContent();
         }
 
-        // POST
         [HttpPost]
         public async Task<ActionResult<ClaseHipica>> PostClaseHipica(ClaseHipica claseHipica)
         {
@@ -103,8 +99,7 @@ namespace CentroHipico.API.Controllers
                 claseCompleta ?? claseHipica
             );
         }
-
-        // DELETE
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteClaseHipica(int id)
         {
