@@ -90,7 +90,6 @@ namespace CentroHipico.API.Controllers
             _context.ClasesHipica.Add(claseHipica);
             await _context.SaveChangesAsync();
 
-            // Recargo la clase con las relaciones para devolverla completa
             var claseCompleta = await _context.ClasesHipica
                 .Include(c => c.Disciplina)
                 .Include(c => c.Nivel)
